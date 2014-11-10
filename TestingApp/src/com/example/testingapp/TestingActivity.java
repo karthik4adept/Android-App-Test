@@ -16,7 +16,7 @@ protected void onCreate(Bundle savedInstanceState) {
 	LinearLayout ll=new LinearLayout(context);
 	TextView tv=new TextView(context);
 	tv.setText("Welcome to Hudson CI");
-	tv.setTextSize(20);
+	tv.setTextSize(30);
 	tv.setGravity(Gravity.CENTER);
 	ll.addView(tv);	
 	setContentView(ll);
