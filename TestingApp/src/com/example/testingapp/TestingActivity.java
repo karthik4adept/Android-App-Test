@@ -20,5 +20,6 @@ protected void onCreate(Bundle savedInstanceState) {
 	tv.setGravity(Gravity.CENTER);
 	ll.addView(tv);	
 	setContentView(ll);
+	//Created for Testing 
 }
 }
