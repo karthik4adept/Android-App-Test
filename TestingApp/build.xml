@@ -17,18 +17,12 @@ This Test Ant Bulid App
 
 <!-- top level targets -->
 <target name="compile" depends="init" description="compile the source code " >
-<!-- javac srcdir="${src}" destdir="${build}"  includeantruntime="true">
+<javac srcdir="${src}" destdir="${build}" includeantruntime="false">
 <classpath>
 <fileset dir="lib">
 <include name="**/*.jar"/>
 </fileset>
-</classpath> -->
-<javac srcdir="src" destdir="gen" source="1.7" target="1.7" compiler="javac1.7" includeantruntime="false">
-        <classpath>
-            <fileset dir="lib">
-                <include name="*.jar" />
-            </fileset>
-        </classpath>
+</classpath> 
 </javac>
 </target>
 <target name="dist" depends="compile" description="generate the distributable files " >
