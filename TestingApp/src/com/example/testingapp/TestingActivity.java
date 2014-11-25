@@ -2,6 +2,7 @@ package com.example.testingapp;
 
 import android.app.Activity;
 import android.content.Context;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.Gravity;
 import android.widget.LinearLayout;
@@ -14,7 +15,7 @@ protected void onCreate(Bundle savedInstanceState) {
 	// TODO Auto-generated method stub
 	super.onCreate(savedInstanceState);
 	LinearLayout ll=new LinearLayout(context);
-	ll.setLayoutOrientation(LinearLayout.VERTICAL);
+	ll.setOrientation(LinearLayout.VERTICAL);
 	TextView tv=new TextView(context);
 	tv.setTextColor(Color.RED);
 	tv.setText("Welcome to Hudson CI");
