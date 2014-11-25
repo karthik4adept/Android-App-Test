@@ -14,11 +14,18 @@ protected void onCreate(Bundle savedInstanceState) {
 	// TODO Auto-generated method stub
 	super.onCreate(savedInstanceState);
 	LinearLayout ll=new LinearLayout(context);
+	ll.setLayoutOrientation(LinearLayout.VERTICAL);
 	TextView tv=new TextView(context);
 	tv.setText("Welcome to Hudson CI");
 	tv.setTextSize(30);
 	tv.setGravity(Gravity.CENTER);
 	ll.addView(tv);	
+     TextView tv1=new TextView(context);
+	tv1.setText("Welcome to Jenkins CI");
+	tv1.setTextSize(30);
+	tv1.setGravity(Gravity.LEFT);
+	ll.addView(tv1);	
+	
 	setContentView(ll);
 }
 }
