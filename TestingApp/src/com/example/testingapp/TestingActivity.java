@@ -28,11 +28,12 @@ protected void onCreate(Bundle savedInstanceState) {
 	tv1.setTextColor(Color.GREEN);
 	tv1.setGravity(Gravity.LEFT);
 	ll.addView(tv1);
-	tv.setTextColor(Color.RED);
-	tv.setText("Welcome ");
-	tv.setTextSize(30);
-	tv.setGravity(Gravity.CENTER);
-	ll.addView(tv);	
+	TextView tv3=new TextView(context);
+	tv3.setTextColor(Color.RED);
+	tv3.setText("Welcome ");
+	tv3.setTextSize(30);
+	tv3.setGravity(Gravity.CENTER);
+	ll.addView(tv3);	
 	setContentView(ll);
 }
 }
