@@ -22,13 +22,12 @@ protected void onCreate(Bundle savedInstanceState) {
 	tv.setTextSize(30);
 	tv.setGravity(Gravity.CENTER);
 	ll.addView(tv);	
-     TextView tv1=new TextView(context);
+        TextView tv1=new TextView(context);
 	tv1.setText("Welcome to Jenkins CI");
 	tv1.setTextSize(30);
 	tv1.setTextColor(Color.GREEN);
 	tv1.setGravity(Gravity.LEFT);
-	ll.addView(tv1);	
-	
+	ll.addView(tv1);
 	setContentView(ll);
 }
 }
