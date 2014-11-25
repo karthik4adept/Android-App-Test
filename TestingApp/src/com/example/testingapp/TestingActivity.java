@@ -16,6 +16,7 @@ protected void onCreate(Bundle savedInstanceState) {
 	LinearLayout ll=new LinearLayout(context);
 	ll.setLayoutOrientation(LinearLayout.VERTICAL);
 	TextView tv=new TextView(context);
+	tv.setTextColor(Color.RED);
 	tv.setText("Welcome to Hudson CI");
 	tv.setTextSize(30);
 	tv.setGravity(Gravity.CENTER);
@@ -23,6 +24,7 @@ protected void onCreate(Bundle savedInstanceState) {
      TextView tv1=new TextView(context);
 	tv1.setText("Welcome to Jenkins CI");
 	tv1.setTextSize(30);
+	tv1.setTextColor(Color.GREEN);
 	tv1.setGravity(Gravity.LEFT);
 	ll.addView(tv1);	
 	
