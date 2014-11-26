@@ -1,6 +1,6 @@
 <project>
-<target name="printinfo">
-<property environment="env" />
-<echo message="${env.BUILD_TAG}"/>
-</target>
+   <target name="printinfo">
+    <property environment="env" />
+    <echo message="${env.BUILD_TAG}"/>
+    </target>
 </project>
