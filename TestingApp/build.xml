@@ -7,8 +7,8 @@
 <project basedir="." default="build" name="TestingApp">
     <property environment="env"/>
     <property name="debuglevel" value="source,lines,vars"/>
-    <property name="target" value="1.6"/>
-    <property name="source" value="1.6"/>
+    <property name="target" value="1.7"/>
+    <property name="source" value="1.7"/>
     <path id="Android 4.4.libraryclasspath">
         <pathelement location="~/android-sdk-linux/platforms/android-19/android.jar"/>
     </path>
