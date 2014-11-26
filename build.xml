@@ -2,5 +2,7 @@
    <target name="printinfo">
     <property environment="env" />
     <echo message="${env.BUILD_TAG}"/>
+    <echo message="${env.BUILD_ID}"/>
+    <echo message="${env.BUILD_NAME}"/>
     </target>
 </project>
