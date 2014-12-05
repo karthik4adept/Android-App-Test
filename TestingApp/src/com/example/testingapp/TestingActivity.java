@@ -21,7 +21,14 @@ protected void onCreate(Bundle savedInstanceState) {
 	tv.setText("Welcome to Hudson CI");
 	tv.setTextSize(30);
 	tv.setGravity(Gravity.CENTER);
-	ll.addView(tv);	
+	ll.addView(tv);
+
+TextView text = new TextView(context);
+	text .setTextColor(Color.RED);
+	text .setText("Welcome to Hudson CI");
+	text .setTextSize(30);
+	text.setGravity(Gravity.CENTER);
+	ll.addView(text );	
 	setContentView(ll);
 }
 }
