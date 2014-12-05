@@ -13,9 +13,9 @@ public class TestingActivity extends Activity {
 @Override
 protected void onCreate(Bundle savedInstanceState) {
 	// TODO Auto-generated method stub
-	super.onCreate(savedInstanceState)
-	LinearLayout ll=new LinearLayout(context)
-	ll.setOrientation(LinearLayout.VERTICAL)
+	super.onCreate(savedInstanceState);
+	LinearLayout ll=new LinearLayout(context);
+	ll.setOrientation(LinearLayout.VERTICAL);
 	TextView tv=new TextView(context);
 	tv.setTextColor(Color.RED);
 	tv.setText("Welcome to Hudson CI");
